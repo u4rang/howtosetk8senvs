@@ -184,3 +184,9 @@ minikube 1.0 버전부터 Chocolatey 를 이용하여 설치가 가능하다.
 
 `vagrant destory -f`
 
+
+
+"끝"
+
+![signature](https://raw.githubusercontent.com/u4rang/save-image-repo/main/img/signature.png)
+
