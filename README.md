@@ -150,41 +150,6 @@ minikube 1.0 버전부터 Chocolatey 를 이용하여 설치가 가능하다.
 
 
 
-# 6. Multi-Node K8S Cluster 구성
-
-Multi-Node K8S Cluster 는 다음과 같이 구성한다.
-
-![image-20210810222805161](https://raw.githubusercontent.com/u4rang/save-image-repo/main/img/image-20210810222805161.png)
-
-# 6.1 Github 에서 Clone
-
-````shell
-git clone https://github.com/u4rang/minikube.git
-cd vagrant-kubernetes
-````
-
-# 6.2 kubernetes 기동
-
-VM 이미지, 컨테이너 이미지 등이 다운로드 된다.
-
-환경에 따라 필요한 시간이 다르지만 30분 정도 필요하다.
-
-`vagrant up`
-
-# 6.3 kubernetes 접속
-
-`vagrant ssh master`
-
-
-
-## 6.4 kubernetes 확인
-
-```shell
-kubec
-```
-
-
-
 
 
 # 9. 참고자료
@@ -193,7 +158,7 @@ kubec
 
 리눅스의 /vagrant 로 마운트되는 VirtualBox 의 공유 폴더가 마운트 되지 않는 문제가 발생하는 경우에 대한 해결 방법이다.
 
-![image-20210805222402910](C:\Users\u4ran\OneDrive\DEV\K8S\Docs\image-20210805222402910.png)
+![image-20210805222402910](https://raw.githubusercontent.com/u4rang/save-image-repo/main/img/image-20210805222402910.png)
 
 - 문제 원인 : VirtualBox Guest Additions 
 
